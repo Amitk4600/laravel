@@ -1,0 +1,27 @@
+body{
+ 
+    margin: auto;
+}
+.head-container {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+section{
+    flex-direction: row;
+    gap: 10px;
+    background: greenyellow;
+}
+.sidebar{
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    background-color: aquamarine;
+
+}
+section a,
+.sidebar a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
