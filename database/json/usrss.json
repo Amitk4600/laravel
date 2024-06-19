@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Amit",
+      "email": "Amit@gmail.com",
+      "age": 25,
+      "city": "New York"
+    },
+    {
+      "name": "Amir",
+      "email": "Amir@gmail.com",
+      "age": 30,
+      "city": "London"
+    },
+    {
+      "name": "Amitkumar",
+      "email": "Amit-kumar@gmail.com",
+      "age": 28,
+      "city": "Mumbai"
+    },
+    {
+      "name": "Akumar",
+      "email": "Akumar@gmail.com",
+      "age": 32,
+      "city": "Tokyo"
+    },
+    {
+      "name": "John",
+      "email": "john@example.com",
+      "age": 35,
+      "city": "Los Angeles"
+    },
+    {
+      "name": "Emily",
+      "email": "emily@example.com",
+      "age": 27,
+      "city": "Paris"
+    },
+    {
+      "name": "Michael",
+      "email": "michael@example.com",
+      "age": 40,
+      "city": "Sydney"
+    },
+    {
+      "name": "Sophia",
+      "email": "sophia@example.com",
+      "age": 31,
+      "city": "Berlin"
+    }
+  ]

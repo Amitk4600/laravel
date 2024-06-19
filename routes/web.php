@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\UsrController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -55,3 +56,6 @@ Route::controller(PageController::class)->group(function(){
 });
 
 Route::get('/testing',TestController::class);
+
+Route::get('/usrs',[UsrController::class,'showUsrs'])->name('usrs');
+Route::get('/single/{id}',[UsrController::class,'single_User'])->name('single.Usrs');
