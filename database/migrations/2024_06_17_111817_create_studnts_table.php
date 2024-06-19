@@ -14,7 +14,14 @@ return new class extends Migration
         Schema::create('studnts', function (Blueprint $table) {
             $table->id();
             $table->string('name',30);
+            $table->integer('age');
             $table->string('email',40)->unique()->nullable();
+            $table->string('add');
+            $table->string('city');
+            $table->string('phone');
+            $table->string('password');
+            $table->timestamps();
+
         });
     }
 
