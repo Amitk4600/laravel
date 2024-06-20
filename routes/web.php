@@ -59,3 +59,8 @@ Route::get('/testing',TestController::class);
 
 Route::get('/usrs',[UsrController::class,'showUsrs'])->name('usrs');
 Route::get('/single/{id}',[UsrController::class,'single_User'])->name('single.Usrs');
+//addUser
+Route::get('/add',[UsrController::class,'addUser']);
+Route::get('/update',[UsrController::class,'updateUser']);
+Route::get('/delete',[UsrController::class,'deleteUser']);
+Route::get('/delete/{id}',[UsrController::class,'deleteUer'])->name('delete.user');
